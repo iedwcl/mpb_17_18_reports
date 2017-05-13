@@ -43,7 +43,7 @@
                 <blue>255</blue>
                 <alpha>255</alpha>
               </background>
-              <text>Category wise/ Gradewise Manpower as per Manpower Budget 2016-17</text>
+              <text>Category wise/ Gradewise Manpower as per Manpower Budget 2017-18</text>
               <horizontalAlign>0</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
@@ -359,7 +359,7 @@
                 </bottomColor>
               </border>
               <wrapText>false</wrapText>
-              <percentLineSpacing>0</percentLineSpacing>
+              <percentLineSpacing>100</percentLineSpacing>
               <repeatedValue>false</repeatedValue>
               <textRotation>0</textRotation>
             </band-element>
@@ -423,7 +423,7 @@
                 </bottomColor>
               </border>
               <wrapText>false</wrapText>
-              <percentLineSpacing>0</percentLineSpacing>
+              <percentLineSpacing>100</percentLineSpacing>
               <repeatedValue>false</repeatedValue>
               <textRotation>0</textRotation>
             </band-element>
@@ -487,7 +487,7 @@
                 </bottomColor>
               </border>
               <wrapText>false</wrapText>
-              <percentLineSpacing>0</percentLineSpacing>
+              <percentLineSpacing>100</percentLineSpacing>
               <repeatedValue>false</repeatedValue>
               <textRotation>0</textRotation>
             </band-element>
@@ -584,7 +584,7 @@
                 <blue>255</blue>
                 <alpha>255</alpha>
               </background>
-              <text>Existing as on 1.2.16</text>
+              <text>Existing as on 1.2.17</text>
               <horizontalAlign>0</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
@@ -648,7 +648,7 @@
                 <blue>255</blue>
                 <alpha>255</alpha>
               </background>
-              <text>Proposed sanction for 2016-17</text>
+              <text>Proposed sanction for 2017-18</text>
               <horizontalAlign>0</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>

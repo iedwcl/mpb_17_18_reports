@@ -36,7 +36,7 @@
     </parameter>
   </parameters>
   <sql>select * from unit_dscd_ers    where        d5  like  
-${dcd5} and type &lt;&gt; &apos;UG&apos;</sql>
+${dcd5}</sql>
   <layout>
     <groups>
       <group>

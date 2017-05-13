@@ -479,7 +479,7 @@ e.type DESC,
                 <blue>255</blue>
                 <alpha>255</alpha>
               </background>
-              <text></text>
+              <text>Working Unit</text>
               <horizontalAlign>2</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>

@@ -1,6 +1,6 @@
 <report version="9.1">
   <id>0</id>
-  <name>fAREA_UNIT_ERS.report</name>
+  <name>AREA_TYPE_UNIT_ROLL_ERS_CONTINOUS.report</name>
   <parameters class="linked-list"/>
   <sql>SELECT e.unit,u.name,a.area,
        sum( tot ),
@@ -37,13 +37,13 @@ e.type DESC,
       </group>
     </groups>
     <columnsWidth>
-      <int>247</int>
-      <int>83</int>
-      <int>154</int>
-      <int>75</int>
-      <int>182</int>
+      <int>112</int>
+      <int>229</int>
+      <int>98</int>
+      <int>98</int>
+      <int>98</int>
     </columnsWidth>
-    <useSize>false</useSize>
+    <useSize>true</useSize>
     <headerBand>
       <name>Header</name>
       <rows>
@@ -53,8 +53,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>5</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>14</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -130,8 +130,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>5</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>14</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -207,337 +207,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
-                <style>0</style>
-              </font>
-              <foreground>
-                <red>0</red>
-                <green>0</green>
-                <blue>0</blue>
-                <alpha>255</alpha>
-              </foreground>
-              <background>
-                <red>255</red>
-                <green>255</green>
-                <blue>255</blue>
-                <alpha>255</alpha>
-              </background>
-              <text></text>
-              <horizontalAlign>2</horizontalAlign>
-              <verticalAlign>0</verticalAlign>
-              <padding>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-              </padding>
-              <border>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <leftColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </leftColor>
-                <rightColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </rightColor>
-                <topColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </topColor>
-                <bottomColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </bottomColor>
-              </border>
-              <wrapText>false</wrapText>
-              <percentLineSpacing>100</percentLineSpacing>
-              <repeatedValue>false</repeatedValue>
-              <textRotation>0</textRotation>
-            </band-element>
-            <band-element>
-              <rowSpan>1</rowSpan>
-              <colSpan>1</colSpan>
-              <font>
-                <name>Segoe UI</name>
-                <size>12</size>
-                <style>0</style>
-              </font>
-              <foreground>
-                <red>0</red>
-                <green>0</green>
-                <blue>0</blue>
-                <alpha>255</alpha>
-              </foreground>
-              <background>
-                <red>255</red>
-                <green>255</green>
-                <blue>255</blue>
-                <alpha>255</alpha>
-              </background>
-              <text></text>
-              <horizontalAlign>2</horizontalAlign>
-              <verticalAlign>0</verticalAlign>
-              <padding>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-              </padding>
-              <border>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <leftColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </leftColor>
-                <rightColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </rightColor>
-                <topColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </topColor>
-                <bottomColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </bottomColor>
-              </border>
-              <wrapText>false</wrapText>
-              <percentLineSpacing>100</percentLineSpacing>
-              <repeatedValue>false</repeatedValue>
-              <textRotation>0</textRotation>
-            </band-element>
-            <band-element>
-              <rowSpan>1</rowSpan>
-              <colSpan>1</colSpan>
-              <font>
-                <name>Segoe UI</name>
-                <size>12</size>
-                <style>0</style>
-              </font>
-              <foreground>
-                <red>0</red>
-                <green>0</green>
-                <blue>0</blue>
-                <alpha>255</alpha>
-              </foreground>
-              <background>
-                <red>255</red>
-                <green>255</green>
-                <blue>255</blue>
-                <alpha>255</alpha>
-              </background>
-              <text></text>
-              <horizontalAlign>2</horizontalAlign>
-              <verticalAlign>0</verticalAlign>
-              <padding>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-              </padding>
-              <border>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <leftColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </leftColor>
-                <rightColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </rightColor>
-                <topColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </topColor>
-                <bottomColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </bottomColor>
-              </border>
-              <wrapText>false</wrapText>
-              <percentLineSpacing>100</percentLineSpacing>
-              <repeatedValue>false</repeatedValue>
-              <textRotation>0</textRotation>
-            </band-element>
-            <band-element>
-              <rowSpan>1</rowSpan>
-              <colSpan>1</colSpan>
-              <font>
-                <name>Dialog</name>
-                <size>12</size>
-                <style>0</style>
-              </font>
-              <foreground>
-                <red>0</red>
-                <green>0</green>
-                <blue>0</blue>
-                <alpha>255</alpha>
-              </foreground>
-              <background>
-                <red>255</red>
-                <green>255</green>
-                <blue>255</blue>
-                <alpha>255</alpha>
-              </background>
-              <text></text>
-              <horizontalAlign>2</horizontalAlign>
-              <verticalAlign>0</verticalAlign>
-              <padding>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-              </padding>
-              <border>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <leftColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </leftColor>
-                <rightColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </rightColor>
-                <topColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </topColor>
-                <bottomColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </bottomColor>
-              </border>
-              <wrapText>false</wrapText>
-              <percentLineSpacing>100</percentLineSpacing>
-              <repeatedValue>false</repeatedValue>
-              <textRotation>0</textRotation>
-            </band-element>
-            <band-element>
-              <rowSpan>1</rowSpan>
-              <colSpan>1</colSpan>
-              <font>
-                <name>Segoe UI</name>
-                <size>12</size>
-                <style>0</style>
-              </font>
-              <foreground>
-                <red>0</red>
-                <green>0</green>
-                <blue>0</blue>
-                <alpha>255</alpha>
-              </foreground>
-              <background>
-                <red>255</red>
-                <green>255</green>
-                <blue>255</blue>
-                <alpha>255</alpha>
-              </background>
-              <text>Working Unit Basis</text>
-              <horizontalAlign>2</horizontalAlign>
-              <verticalAlign>0</verticalAlign>
-              <padding>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-              </padding>
-              <border>
-                <left>0</left>
-                <right>0</right>
-                <top>0</top>
-                <bottom>0</bottom>
-                <leftColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </leftColor>
-                <rightColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </rightColor>
-                <topColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </topColor>
-                <bottomColor>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </bottomColor>
-              </border>
-              <wrapText>false</wrapText>
-              <percentLineSpacing>100</percentLineSpacing>
-              <repeatedValue>false</repeatedValue>
-              <textRotation>0</textRotation>
-            </band-element>
-          </elements>
-          <formattingConditions>
-            <conditions class="linked-list"/>
-            <expressionText></expressionText>
-          </formattingConditions>
-          <startOnNewPage>false</startOnNewPage>
-        </row-element>
-        <row-element>
-          <elements>
-            <param-band-element>
-              <rowSpan>1</rowSpan>
-              <colSpan>1</colSpan>
-              <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -552,7 +223,7 @@ e.type DESC,
                 <blue>255</blue>
                 <alpha>255</alpha>
               </background>
-              <text>$P{area_name}</text>
+              <text></text>
               <horizontalAlign>2</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
@@ -595,15 +266,14 @@ e.type DESC,
               <percentLineSpacing>100</percentLineSpacing>
               <repeatedValue>false</repeatedValue>
               <textRotation>0</textRotation>
-              <parameter>area_name</parameter>
-            </param-band-element>
+            </band-element>
             <band-element>
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
-                <style>0</style>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
               </font>
               <foreground>
                 <red>0</red>
@@ -665,9 +335,9 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
-                <style>0</style>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
               </font>
               <foreground>
                 <red>0</red>
@@ -729,9 +399,9 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Dialog</name>
-                <size>12</size>
-                <style>0</style>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
               </font>
               <foreground>
                 <red>0</red>
@@ -793,9 +463,338 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
-                <style>0</style>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text>On Roll Unit</text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+          </elements>
+          <formattingConditions>
+            <conditions class="linked-list"/>
+            <expressionText></expressionText>
+          </formattingConditions>
+          <startOnNewPage>false</startOnNewPage>
+        </row-element>
+        <row-element>
+          <elements>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
               </font>
               <foreground>
                 <red>0</red>
@@ -866,8 +865,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -930,8 +929,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -994,8 +993,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -1010,7 +1009,7 @@ e.type DESC,
                 <blue>255</blue>
                 <alpha>255</alpha>
               </background>
-              <text>Existing as on 1.2.16</text>
+              <text>Existing as on 1.2.17</text>
               <horizontalAlign>0</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
@@ -1058,8 +1057,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -1074,7 +1073,7 @@ e.type DESC,
                 <blue>255</blue>
                 <alpha>255</alpha>
               </background>
-              <text>Proposed by Area 2016-17</text>
+              <text>Proposed by Area 2017-18</text>
               <horizontalAlign>0</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
@@ -1122,8 +1121,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -1138,7 +1137,7 @@ e.type DESC,
                 <blue>255</blue>
                 <alpha>255</alpha>
               </background>
-              <text>Proposed by IED 2016-17</text>
+              <text>Proposed by IED 2017-18</text>
               <horizontalAlign>0</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
@@ -1201,12 +1200,341 @@ e.type DESC,
         <rows>
           <row-element>
             <elements>
-              <col-band-element>
+              <band-element>
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+            </elements>
+            <formattingConditions>
+              <conditions class="linked-list"/>
+              <expressionText></expressionText>
+            </formattingConditions>
+            <startOnNewPage>false</startOnNewPage>
+          </row-element>
+          <row-element>
+            <elements>
+              <col-band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>2</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -1266,12 +1594,214 @@ e.type DESC,
                 <textRotation>0</textRotation>
                 <column>area</column>
               </col-band-element>
+              <null/>
               <band-element>
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Dialog</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+            </elements>
+            <formattingConditions>
+              <conditions class="linked-list"/>
+              <expressionText></expressionText>
+            </formattingConditions>
+            <startOnNewPage>false</startOnNewPage>
+          </row-element>
+          <row-element>
+            <elements>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>0</style>
                 </font>
                 <foreground>
@@ -1334,8 +1864,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Dialog</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>0</style>
                 </font>
                 <foreground>
@@ -1398,8 +1928,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Dialog</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>0</style>
                 </font>
                 <foreground>
@@ -1462,8 +1992,72 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Dialog</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>0</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>0</style>
                 </font>
                 <foreground>
@@ -1540,8 +2134,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Dialog</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>0</style>
                 </font>
                 <foreground>
@@ -1605,8 +2199,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Dialog</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>0</style>
                 </font>
                 <foreground>
@@ -1669,8 +2263,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Dialog</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>0</style>
                 </font>
                 <foreground>
@@ -1733,8 +2327,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Dialog</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>0</style>
                 </font>
                 <foreground>
@@ -1797,8 +2391,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Dialog</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>0</style>
                 </font>
                 <foreground>
@@ -1876,8 +2470,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>11</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -1896,10 +2490,10 @@ e.type DESC,
               <horizontalAlign>2</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
-                <left>1</left>
+                <left>3</left>
                 <right>1</right>
                 <top>1</top>
-                <bottom>1</bottom>
+                <bottom>0</bottom>
               </padding>
               <border>
                 <left>1</left>
@@ -1941,8 +2535,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>11</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -1961,10 +2555,10 @@ e.type DESC,
               <horizontalAlign>2</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
-                <left>1</left>
+                <left>3</left>
                 <right>1</right>
                 <top>1</top>
-                <bottom>1</bottom>
+                <bottom>0</bottom>
               </padding>
               <border>
                 <left>1</left>
@@ -2006,8 +2600,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>11</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -2071,8 +2665,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>11</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -2136,8 +2730,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>11</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -2216,8 +2810,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -2281,8 +2875,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -2297,7 +2891,7 @@ e.type DESC,
                   <blue>255</blue>
                   <alpha>255</alpha>
                 </background>
-                <text>Total</text>
+                <text>    Total</text>
                 <horizontalAlign>2</horizontalAlign>
                 <verticalAlign>0</verticalAlign>
                 <padding>
@@ -2345,8 +2939,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -2412,8 +3006,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -2428,7 +3022,7 @@ e.type DESC,
                   <blue>255</blue>
                   <alpha>255</alpha>
                 </background>
-                <text>$F{SUM(sum( tot ))}</text>
+                <text>$F{SUM(sum( req ))}</text>
                 <horizontalAlign>4</horizontalAlign>
                 <verticalAlign>0</verticalAlign>
                 <padding>
@@ -2472,15 +3066,15 @@ e.type DESC,
                 <repeatedValue>false</repeatedValue>
                 <textRotation>0</textRotation>
                 <function>SUM</function>
-                <column>sum( tot )</column>
+                <column>sum( req )</column>
                 <isExpression>false</isExpression>
               </func-band-element>
               <func-band-element>
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -2556,12 +3150,341 @@ e.type DESC,
         <rows>
           <row-element>
             <elements>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+              <band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>9</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text></text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+              </band-element>
+            </elements>
+            <formattingConditions>
+              <conditions class="linked-list"/>
+              <expressionText></expressionText>
+            </formattingConditions>
+            <startOnNewPage>false</startOnNewPage>
+          </row-element>
+          <row-element>
+            <elements>
               <col-band-element>
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -2625,8 +3548,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -2641,7 +3564,7 @@ e.type DESC,
                   <blue>255</blue>
                   <alpha>255</alpha>
                 </background>
-                <text>Total</text>
+                <text>    Total</text>
                 <horizontalAlign>2</horizontalAlign>
                 <verticalAlign>0</verticalAlign>
                 <padding>
@@ -2689,8 +3612,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -2756,8 +3679,8 @@ e.type DESC,
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -2772,7 +3695,7 @@ e.type DESC,
                   <blue>255</blue>
                   <alpha>255</alpha>
                 </background>
-                <text>$F{SUM(sum( tot ))}</text>
+                <text>$F{SUM(sum( req ))}</text>
                 <horizontalAlign>4</horizontalAlign>
                 <verticalAlign>0</verticalAlign>
                 <padding>
@@ -2816,15 +3739,15 @@ e.type DESC,
                 <repeatedValue>false</repeatedValue>
                 <textRotation>0</textRotation>
                 <function>SUM</function>
-                <column>sum( tot )</column>
+                <column>sum( req )</column>
                 <isExpression>false</isExpression>
               </func-band-element>
               <func-band-element>
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>9</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -2898,10 +3821,6 @@ e.type DESC,
     </groupFooterBands>
     <pageFooterBand>
       <name>PageFooter</name>
-      <rows/>
-    </pageFooterBand>
-    <footerBand>
-      <name>Footer</name>
       <rows>
         <row-element>
           <elements>
@@ -2909,8 +3828,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -2973,8 +3892,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -3037,7 +3956,273 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>0</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>0</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>0</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+          </elements>
+          <formattingConditions>
+            <conditions class="linked-list"/>
+            <expressionText></expressionText>
+          </formattingConditions>
+          <startOnNewPage>false</startOnNewPage>
+        </row-element>
+        <row-element>
+          <elements>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>2</colSpan>
+              <font>
+                <name>Dialog</name>
+                <size>9</size>
+                <style>2</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text>INDUSTRIAL ENGINEERING DEPT, HQ WCL</text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <null/>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>Dialog</name>
                 <size>12</size>
                 <style>0</style>
               </font>
@@ -3054,7 +4239,7 @@ e.type DESC,
                 <alpha>255</alpha>
               </background>
               <text></text>
-              <horizontalAlign>4</horizontalAlign>
+              <horizontalAlign>2</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
                 <left>0</left>
@@ -3118,6 +4303,276 @@ e.type DESC,
                 <alpha>255</alpha>
               </background>
               <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>Dialog</name>
+                <size>12</size>
+                <style>0</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+          </elements>
+          <formattingConditions>
+            <conditions class="linked-list"/>
+            <expressionText></expressionText>
+          </formattingConditions>
+          <startOnNewPage>false</startOnNewPage>
+        </row-element>
+      </rows>
+    </pageFooterBand>
+    <footerBand>
+      <name>Footer</name>
+      <rows>
+        <row-element>
+          <elements>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>2</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
               <horizontalAlign>4</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
@@ -3165,9 +4620,73 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
-                <style>0</style>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
+              </font>
+              <foreground>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </foreground>
+              <background>
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </background>
+              <text></text>
+              <horizontalAlign>4</horizontalAlign>
+              <verticalAlign>0</verticalAlign>
+              <padding>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+              </padding>
+              <border>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <leftColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </leftColor>
+                <rightColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </rightColor>
+                <topColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </topColor>
+                <bottomColor>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </bottomColor>
+              </border>
+              <wrapText>false</wrapText>
+              <percentLineSpacing>100</percentLineSpacing>
+              <repeatedValue>false</repeatedValue>
+              <textRotation>0</textRotation>
+            </band-element>
+            <band-element>
+              <rowSpan>1</rowSpan>
+              <colSpan>1</colSpan>
+              <font>
+                <name>SansSerif</name>
+                <size>9</size>
+                <style>1</style>
               </font>
               <foreground>
                 <red>0</red>
@@ -3238,8 +4757,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>2</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -3303,8 +4822,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -3370,8 +4889,8 @@ e.type DESC,
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -3386,7 +4905,7 @@ e.type DESC,
                 <blue>255</blue>
                 <alpha>255</alpha>
               </background>
-              <text>$F{SUM(sum( tot ))}</text>
+              <text>$F{SUM(sum( req ))}</text>
               <horizontalAlign>4</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
@@ -3430,15 +4949,15 @@ e.type DESC,
               <repeatedValue>false</repeatedValue>
               <textRotation>0</textRotation>
               <function>SUM</function>
-              <column>sum( tot )</column>
+              <column>sum( req )</column>
               <isExpression>false</isExpression>
             </func-band-element>
             <func-band-element>
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>9</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -3512,7 +5031,7 @@ e.type DESC,
     <orientation>0</orientation>
     <reportType>0</reportType>
     <templateSheet>0</templateSheet>
-    <headerOnEveryPage>false</headerOnEveryPage>
+    <headerOnEveryPage>true</headerOnEveryPage>
     <showEmptyData>false</showEmptyData>
     <i18nkeys/>
     <languages/>
