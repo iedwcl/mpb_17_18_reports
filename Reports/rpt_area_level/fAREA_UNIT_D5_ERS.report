@@ -1,6 +1,6 @@
 <report version="9.1">
   <id>0</id>
-  <name>fAREA_D5_ERS.report</name>
+  <name>fAREA_UNIT_D5_ERS.report</name>
   <parameters class="linked-list">
     <parameter>
       <name>area_cd</name>
@@ -307,7 +307,7 @@
                   <alpha>255</alpha>
                 </bottomColor>
               </border>
-              <wrapText>false</wrapText>
+              <wrapText>true</wrapText>
               <percentLineSpacing>100</percentLineSpacing>
               <repeatedValue>false</repeatedValue>
               <textRotation>0</textRotation>
@@ -371,7 +371,7 @@
                   <alpha>255</alpha>
                 </bottomColor>
               </border>
-              <wrapText>false</wrapText>
+              <wrapText>true</wrapText>
               <percentLineSpacing>100</percentLineSpacing>
               <repeatedValue>false</repeatedValue>
               <textRotation>0</textRotation>
@@ -435,7 +435,7 @@
                   <alpha>255</alpha>
                 </bottomColor>
               </border>
-              <wrapText>false</wrapText>
+              <wrapText>true</wrapText>
               <percentLineSpacing>100</percentLineSpacing>
               <repeatedValue>false</repeatedValue>
               <textRotation>0</textRotation>
@@ -946,7 +946,7 @@
                 <alpha>255</alpha>
               </background>
               <text>$C{sum(tot)}</text>
-              <horizontalAlign>2</horizontalAlign>
+              <horizontalAlign>4</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
                 <left>1</left>
@@ -1011,7 +1011,7 @@
                 <alpha>255</alpha>
               </background>
               <text>$C{sum(req)}</text>
-              <horizontalAlign>2</horizontalAlign>
+              <horizontalAlign>4</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
                 <left>1</left>
@@ -1076,7 +1076,7 @@
                 <alpha>255</alpha>
               </background>
               <text>$C{sum(san)}</text>
-              <horizontalAlign>2</horizontalAlign>
+              <horizontalAlign>4</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
                 <left>1</left>
@@ -1569,7 +1569,7 @@
                 <alpha>255</alpha>
               </background>
               <text>$F{SUM(sum(tot))}</text>
-              <horizontalAlign>2</horizontalAlign>
+              <horizontalAlign>4</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
                 <left>0</left>
@@ -1636,7 +1636,7 @@
                 <alpha>255</alpha>
               </background>
               <text>$F{SUM(sum(req))}</text>
-              <horizontalAlign>2</horizontalAlign>
+              <horizontalAlign>4</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
                 <left>0</left>
@@ -1703,7 +1703,7 @@
                 <alpha>255</alpha>
               </background>
               <text>$F{SUM(sum(san))}</text>
-              <horizontalAlign>2</horizontalAlign>
+              <horizontalAlign>4</horizontalAlign>
               <verticalAlign>0</verticalAlign>
               <padding>
                 <left>0</left>
