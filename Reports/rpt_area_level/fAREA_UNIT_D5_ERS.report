@@ -19,7 +19,7 @@
       <hidden>false</hidden>
     </parameter>
   </parameters>
-  <sql>SELECT a.area,e.d5,unit, e.areacode, e.idx, e.gdesig, sum(tot), sum(req), sum(san) from unit_dscd_ers e left join area a on e.areacode=a.code where substr(UNIT,2,2)=${area_cd} group by idx,unit order by substr(unit,1,1) desc,unit, d5;</sql>
+  <sql>SELECT a.area,e.d5,unit,u.name, e.areacode, e.idx, e.gdesig, sum(tot), sum(req), sum(san) from unit_dscd_ers e left join area a on e.areacode=a.code left join unit u on u.code=e.unit where substr(UNIT,2,2)=${area_cd} group by idx,unit order by substr(unit,1,1) desc,unit, d5;</sql>
   <layout>
     <groups>
       <group>
@@ -46,8 +46,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>5</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>14</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -124,8 +124,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -188,8 +188,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -252,8 +252,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -316,8 +316,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -380,8 +380,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -463,9 +463,9 @@
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
-                  <style>0</style>
+                  <name>SansSerif</name>
+                  <size>10</size>
+                  <style>1</style>
                 </font>
                 <foreground>
                   <red>0</red>
@@ -519,18 +519,83 @@
                   </bottomColor>
                 </border>
                 <wrapText>false</wrapText>
-                <percentLineSpacing>0</percentLineSpacing>
+                <percentLineSpacing>100</percentLineSpacing>
                 <repeatedValue>false</repeatedValue>
                 <textRotation>0</textRotation>
                 <column>unit</column>
+              </col-band-element>
+              <col-band-element>
+                <rowSpan>1</rowSpan>
+                <colSpan>1</colSpan>
+                <font>
+                  <name>SansSerif</name>
+                  <size>10</size>
+                  <style>1</style>
+                </font>
+                <foreground>
+                  <red>0</red>
+                  <green>0</green>
+                  <blue>0</blue>
+                  <alpha>255</alpha>
+                </foreground>
+                <background>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                  <alpha>255</alpha>
+                </background>
+                <text>$C{name}</text>
+                <horizontalAlign>2</horizontalAlign>
+                <verticalAlign>0</verticalAlign>
+                <padding>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                </padding>
+                <border>
+                  <left>0</left>
+                  <right>0</right>
+                  <top>0</top>
+                  <bottom>0</bottom>
+                  <leftColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </leftColor>
+                  <rightColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </rightColor>
+                  <topColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </topColor>
+                  <bottomColor>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <alpha>255</alpha>
+                  </bottomColor>
+                </border>
+                <wrapText>false</wrapText>
+                <percentLineSpacing>100</percentLineSpacing>
+                <repeatedValue>false</repeatedValue>
+                <textRotation>0</textRotation>
+                <column>name</column>
               </col-band-element>
               <band-element>
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
-                  <style>0</style>
+                  <name>SansSerif</name>
+                  <size>10</size>
+                  <style>1</style>
                 </font>
                 <foreground>
                   <red>0</red>
@@ -584,7 +649,7 @@
                   </bottomColor>
                 </border>
                 <wrapText>false</wrapText>
-                <percentLineSpacing>0</percentLineSpacing>
+                <percentLineSpacing>100</percentLineSpacing>
                 <repeatedValue>false</repeatedValue>
                 <textRotation>0</textRotation>
               </band-element>
@@ -592,9 +657,9 @@
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
-                  <style>0</style>
+                  <name>SansSerif</name>
+                  <size>10</size>
+                  <style>1</style>
                 </font>
                 <foreground>
                   <red>0</red>
@@ -648,7 +713,7 @@
                   </bottomColor>
                 </border>
                 <wrapText>false</wrapText>
-                <percentLineSpacing>0</percentLineSpacing>
+                <percentLineSpacing>100</percentLineSpacing>
                 <repeatedValue>false</repeatedValue>
                 <textRotation>0</textRotation>
               </band-element>
@@ -656,9 +721,9 @@
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
-                  <style>0</style>
+                  <name>SansSerif</name>
+                  <size>10</size>
+                  <style>1</style>
                 </font>
                 <foreground>
                   <red>0</red>
@@ -712,71 +777,7 @@
                   </bottomColor>
                 </border>
                 <wrapText>false</wrapText>
-                <percentLineSpacing>0</percentLineSpacing>
-                <repeatedValue>false</repeatedValue>
-                <textRotation>0</textRotation>
-              </band-element>
-              <band-element>
-                <rowSpan>1</rowSpan>
-                <colSpan>1</colSpan>
-                <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
-                  <style>0</style>
-                </font>
-                <foreground>
-                  <red>0</red>
-                  <green>0</green>
-                  <blue>0</blue>
-                  <alpha>255</alpha>
-                </foreground>
-                <background>
-                  <red>255</red>
-                  <green>255</green>
-                  <blue>255</blue>
-                  <alpha>255</alpha>
-                </background>
-                <text></text>
-                <horizontalAlign>2</horizontalAlign>
-                <verticalAlign>0</verticalAlign>
-                <padding>
-                  <left>0</left>
-                  <right>0</right>
-                  <top>0</top>
-                  <bottom>0</bottom>
-                </padding>
-                <border>
-                  <left>0</left>
-                  <right>0</right>
-                  <top>0</top>
-                  <bottom>0</bottom>
-                  <leftColor>
-                    <red>0</red>
-                    <green>0</green>
-                    <blue>0</blue>
-                    <alpha>255</alpha>
-                  </leftColor>
-                  <rightColor>
-                    <red>0</red>
-                    <green>0</green>
-                    <blue>0</blue>
-                    <alpha>255</alpha>
-                  </rightColor>
-                  <topColor>
-                    <red>0</red>
-                    <green>0</green>
-                    <blue>0</blue>
-                    <alpha>255</alpha>
-                  </topColor>
-                  <bottomColor>
-                    <red>0</red>
-                    <green>0</green>
-                    <blue>0</blue>
-                    <alpha>255</alpha>
-                  </bottomColor>
-                </border>
-                <wrapText>false</wrapText>
-                <percentLineSpacing>0</percentLineSpacing>
+                <percentLineSpacing>100</percentLineSpacing>
                 <repeatedValue>false</repeatedValue>
                 <textRotation>0</textRotation>
               </band-element>
@@ -799,8 +800,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -864,8 +865,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -929,8 +930,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -994,8 +995,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -1059,8 +1060,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>0</style>
               </font>
               <foreground>
@@ -1139,9 +1140,9 @@
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
-                  <style>0</style>
+                  <name>SansSerif</name>
+                  <size>10</size>
+                  <style>1</style>
                 </font>
                 <foreground>
                   <red>0</red>
@@ -1195,7 +1196,7 @@
                   </bottomColor>
                 </border>
                 <wrapText>false</wrapText>
-                <percentLineSpacing>0</percentLineSpacing>
+                <percentLineSpacing>100</percentLineSpacing>
                 <repeatedValue>false</repeatedValue>
                 <textRotation>0</textRotation>
               </band-element>
@@ -1203,8 +1204,8 @@
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>10</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -1259,7 +1260,7 @@
                   </bottomColor>
                 </border>
                 <wrapText>false</wrapText>
-                <percentLineSpacing>0</percentLineSpacing>
+                <percentLineSpacing>100</percentLineSpacing>
                 <repeatedValue>false</repeatedValue>
                 <textRotation>0</textRotation>
               </band-element>
@@ -1267,8 +1268,8 @@
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>10</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -1334,8 +1335,8 @@
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>10</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -1401,8 +1402,8 @@
                 <rowSpan>1</rowSpan>
                 <colSpan>1</colSpan>
                 <font>
-                  <name>Segoe UI</name>
-                  <size>12</size>
+                  <name>SansSerif</name>
+                  <size>10</size>
                   <style>1</style>
                 </font>
                 <foreground>
@@ -1487,8 +1488,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>2</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -1552,8 +1553,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -1619,8 +1620,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>1</style>
               </font>
               <foreground>
@@ -1686,8 +1687,8 @@
               <rowSpan>1</rowSpan>
               <colSpan>1</colSpan>
               <font>
-                <name>Segoe UI</name>
-                <size>12</size>
+                <name>SansSerif</name>
+                <size>10</size>
                 <style>1</style>
               </font>
               <foreground>
